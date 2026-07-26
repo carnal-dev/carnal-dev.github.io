@@ -1,13 +1,13 @@
 title: carnal
 description: "machine learning from first principles"
-url: "https://carnal-dev.github.io"
+url: "https://carnal-dev.com"
 baseurl: ""
 
 author: carnaldev
 
 links:
   github: "https://github.com/carnal-dev"
-  huggingface: "https://huggingface.co/carnaldev"
+  huggingface: "https://huggingface.co/carnal-dev"
   kaggle: "https://www.kaggle.com/carnaldev"
   x: "https://x.com/carnaldev"
   youtube: "https://www.youtube.com/channel/UCdSw4IZmk02jTLAgiqLuO5Q"

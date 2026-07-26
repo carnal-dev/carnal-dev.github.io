@@ -7,5 +7,5 @@ plate_title: The Flammarion engraving
 plate_meta: "artist unknown · wood engraving · first printed 1888 · public domain"
 ---
 
-Elsewhere: [GitHub](https://github.com/carnal-dev), [Hugging Face](https://huggingface.co/carnaldev),
+Elsewhere: [GitHub](https://github.com/carnal-dev), [Hugging Face](https://huggingface.co/carnal-dev),
 [Kaggle](https://www.kaggle.com/carnaldev), [X](https://x.com/carnaldev).
