@@ -47,6 +47,9 @@ a:hover { color: var(--ember); border-color: var(--ember); }
 }
 
 .wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: .65rem;
   font-family: var(--mono);
   font-size: .8rem;
   font-weight: 500;
@@ -56,6 +59,14 @@ a:hover { color: var(--ember); border-color: var(--ember); }
   border: none;
 }
 .wordmark:hover { color: var(--text); }
+
+.mark {
+  height: 1.6rem;
+  width: 1.6rem;
+  object-fit: cover;
+  border: 1px solid var(--hairline);
+  display: block;
+}
 
 .mast-nav a {
   font-family: var(--mono);
