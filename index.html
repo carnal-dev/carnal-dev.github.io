@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<section class="hero">
+  <p class="kicker">a working notebook, kept in public</p>
+  <h1 class="display">Machines,<br>mathematics &amp;<br><em>the long way around.</em></h1>
+  <div class="rule ember"></div>
+  <p class="hero-line">Machine learning from first principles. Simulation, systems, and the
+  engineering underneath. Everything here was built by hand, the slow way, on purpose.</p>
+</section>
+
+<section class="engraving">
+  <figure>
+    <div class="plate">
+      <img src="{{ '/assets/img/melencolia.jpg' | relative_url }}" alt="Melencolia I, an engraving by Albrecht Durer, 1514" loading="lazy">
+    </div>
+    <figcaption class="placard">
+      <span class="placard-title">Melencolia I</span>
+      <span class="placard-meta">Albrecht D&uuml;rer · engraving · 1514 · public domain</span>
+      <span class="placard-note">The patron saint of this notebook: surrounded by every
+      instrument, still thinking.</span>
+    </figcaption>
+  </figure>
+</section>
+
+<section class="index">
+  <h2 class="section-label">Writing</h2>
+  <div class="rule"></div>
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <a class="post-row" href="{{ post.url | relative_url }}">
+        <span class="post-date mono">{{ post.date | date: "%Y·%m·%d" }}</span>
+        <span class="post-name">{{ post.title }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

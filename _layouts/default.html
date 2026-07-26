@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%230b0e12'/><rect x='3' y='3' width='10' height='10' fill='%23e8833a'/></svg>">
+</head>
+<body>
+  <header class="masthead">
+    <a class="wordmark" href="{{ '/' | relative_url }}">carnaldev</a>
+    <nav class="mast-nav">
+      <a href="{{ '/' | relative_url }}">blog</a>
+      <a href="{{ '/about/' | relative_url }}">about</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="colophon">
+    <div class="rule"></div>
+    <div class="colophon-row">
+      <span class="col-label">elsewhere</span>
+      <a href="{{ site.links.github }}">github</a>
+      <a href="{{ site.links.huggingface }}">hugging face</a>
+      <a href="{{ site.links.x }}">x</a>
+    </div>
+    <div class="colophon-row dim">
+      <span class="col-label">colophon</span>
+      <span>set in instrument serif &amp; ibm plex mono · built with jekyll · no tracking, no cookies</span>
+    </div>
+  </footer>
+</body>
+</html>

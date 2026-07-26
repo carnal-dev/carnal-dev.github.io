@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-head">
+    <p class="kicker">{{ page.date | date: "%Y·%m·%d" }}{% if page.tags and page.tags.size > 0 %} — {{ page.tags | join: " · " }}{% endif %}</p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="post-subtitle">{{ page.subtitle }}</p>{% endif %}
+    <div class="rule ember"></div>
+  </header>
+
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  <footer class="post-foot">
+    <div class="rule"></div>
+    <p class="dim mono">fin · <a href="{{ '/' | relative_url }}">index</a></p>
+  </footer>
+</article>

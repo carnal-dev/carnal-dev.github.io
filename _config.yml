@@ -1,0 +1,19 @@
+title: carnaldev
+description: "machines, mathematics, and the long way around"
+url: "https://carnal-dev.github.io"
+baseurl: ""
+
+author: carnaldev
+
+links:
+  github: "https://github.com/carnal-dev"
+  huggingface: "https://huggingface.co/carnaldev"
+  x: "https://x.com/carnaldev"
+
+permalink: /blog/:title/
+markdown: kramdown
+timezone: America/New_York
+
+exclude:
+  - README.md
+  - LICENSE
