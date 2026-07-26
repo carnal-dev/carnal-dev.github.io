@@ -61,23 +61,12 @@ a:hover { color: var(--ember); border-color: var(--ember); }
 .wordmark:hover { color: var(--text); }
 
 .mark {
-  height: 1.6rem;
-  width: 1.6rem;
+  height: 2.6rem;
+  width: 2.6rem;
   object-fit: cover;
   border: 1px solid var(--hairline);
   display: block;
 }
-
-.mast-nav a {
-  font-family: var(--mono);
-  font-size: .75rem;
-  letter-spacing: .2em;
-  text-transform: uppercase;
-  color: var(--dim);
-  border: none;
-  margin-left: 1.5rem;
-}
-.mast-nav a:hover { color: var(--ember); }
 
 .hero { padding: 4.5rem 0 2rem; }
 

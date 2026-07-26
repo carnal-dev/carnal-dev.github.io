@@ -14,10 +14,6 @@
 <body>
   <header class="masthead">
     <a class="wordmark" href="{{ '/' | relative_url }}"><img class="mark" src="{{ '/assets/img/mark.jpg' | relative_url }}" alt="">carnal</a>
-    <nav class="mast-nav">
-      <a href="{{ '/' | relative_url }}">blog</a>
-      <a href="{{ '/about/' | relative_url }}">about</a>
-    </nav>
   </header>
 
   <main>
@@ -32,11 +28,7 @@
       <a href="{{ site.links.huggingface }}">hugging face</a>
       <a href="{{ site.links.kaggle }}">kaggle</a>
       <a href="{{ site.links.x }}">x</a>
-      <a href="mailto:{{ site.email }}">mail</a>
-    </div>
-    <div class="colophon-row dim">
-      <span class="col-label">colophon</span>
-      <span>set in instrument serif &amp; ibm plex mono · built with jekyll</span>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
     </div>
   </footer>
 </body>
