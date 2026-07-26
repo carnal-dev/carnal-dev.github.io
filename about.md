@@ -8,4 +8,5 @@ plate_meta: "artist unknown · wood engraving · first printed 1888 · public do
 ---
 
 Elsewhere: [GitHub](https://github.com/carnal-dev), [Hugging Face](https://huggingface.co/carnal-dev),
-[Kaggle](https://www.kaggle.com/carnaldev), [X](https://x.com/carnaldev).
+[Kaggle](https://www.kaggle.com/carnaldev), [X](https://x.com/carnaldev),
+[ml@carnal-dev.com](mailto:ml@carnal-dev.com).
