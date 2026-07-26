@@ -1,5 +1,3 @@
-/* carnaldev — editorial brutalism, ember on near-black, hard corners everywhere */
-
 :root {
   --bg: #0b0e12;
   --panel: #141920;
@@ -28,7 +26,6 @@ body {
   max-width: 46rem;
   margin: 0 auto;
   padding: 0 1.25rem 4rem;
-  /* faint vertical grain */
   background-image: repeating-linear-gradient(
     90deg, transparent 0, transparent 3px, rgba(255,255,255,0.006) 3px, rgba(255,255,255,0.006) 4px);
 }
@@ -42,8 +39,6 @@ a:hover { color: var(--ember); border-color: var(--ember); }
 .dim { color: var(--dim); }
 .rule { height: 1px; background: var(--hairline); margin: 1.5rem 0; }
 .rule.ember { background: var(--ember); height: 2px; width: 4rem; }
-
-/* ---------- masthead ---------- */
 
 .masthead {
   display: flex; justify-content: space-between; align-items: baseline;
@@ -73,8 +68,6 @@ a:hover { color: var(--ember); border-color: var(--ember); }
 }
 .mast-nav a:hover { color: var(--ember); }
 
-/* ---------- hero ---------- */
-
 .hero { padding: 4.5rem 0 2rem; }
 
 .kicker {
@@ -97,7 +90,6 @@ a:hover { color: var(--ember); border-color: var(--ember); }
 
 .hero-line { color: var(--dim); max-width: var(--measure); }
 
-/* staggered load: hero only, one orchestrated moment */
 .hero > * { opacity: 0; transform: translateY(10px); animation: rise .7s cubic-bezier(.2,.6,.2,1) forwards; }
 .hero > *:nth-child(2) { animation-delay: .08s; }
 .hero > *:nth-child(3) { animation-delay: .16s; }
@@ -106,8 +98,6 @@ a:hover { color: var(--ember); border-color: var(--ember); }
 @media (prefers-reduced-motion: reduce) {
   .hero > * { animation: none; opacity: 1; transform: none; }
 }
-
-/* ---------- engraving ---------- */
 
 .engraving { margin: 3rem 0; }
 
@@ -119,7 +109,6 @@ a:hover { color: var(--ember); border-color: var(--ember); }
 
 .plate img {
   display: block; width: 100%; height: auto;
-  /* duotone by CSS: grayscale, crush, then ember cast */
   filter: grayscale(1) contrast(1.12) brightness(.82) sepia(.55) hue-rotate(-18deg) saturate(1.35);
 }
 
@@ -133,8 +122,6 @@ a:hover { color: var(--ember); border-color: var(--ember); }
 .placard-title { display: block; font-family: var(--serif); font-size: 1.15rem; }
 .placard-meta { display: block; font-family: var(--mono); font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: var(--dim); margin: .3rem 0; }
 .placard-note { display: block; font-size: .85rem; color: var(--dim); }
-
-/* ---------- index ---------- */
 
 .section-label {
   font-family: var(--mono);
@@ -158,8 +145,6 @@ a:hover { color: var(--ember); border-color: var(--ember); }
 
 .post-date { font-size: .78rem; color: var(--dim); flex-shrink: 0; }
 .post-name { font-family: var(--serif); font-size: 1.35rem; line-height: 1.2; }
-
-/* ---------- post ---------- */
 
 .post-head { padding: 3.5rem 0 .5rem; }
 
@@ -214,8 +199,6 @@ a:hover { color: var(--ember); border-color: var(--ember); }
 .prose hr { border: none; height: 1px; background: var(--hairline); margin: 2rem 0; }
 
 .post-foot { margin-top: 3rem; }
-
-/* ---------- colophon ---------- */
 
 .colophon { margin-top: 4rem; }
 .colophon-row {
