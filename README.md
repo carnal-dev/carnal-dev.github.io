@@ -1,8 +1,6 @@
-# carnaldev
+# carnal-dev.github.io
 
-A working notebook, kept in public. Machine learning from first principles, simulation, and the
-systems underneath.
+Personal site. Jekyll, served by GitHub Pages.
 
-Built with Jekyll, served by GitHub Pages. No tracking, no cookies.
-
-Artwork: Albrecht Durer, Melencolia I (1514), public domain, via Wikimedia Commons.
+Artwork: Albrecht Durer, Melencolia I (1514); the Flammarion engraving (1888). Public domain,
+via Wikimedia Commons.
