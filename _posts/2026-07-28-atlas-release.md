@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#3 · Atlas Data"
+title: "#3 · Atlas Release"
 plate: /assets/img/vermeer.jpg
 plate_title: The Astronomer
 plate_meta: "Johannes Vermeer - The Astronomer - 1668"
